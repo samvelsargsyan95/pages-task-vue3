@@ -19,8 +19,8 @@ export default {
     });
 
     onUnmounted(() => {
-        router.push('/page-a')
-    })
+      router.push("/page-a");
+    });
 
     return {
       header,

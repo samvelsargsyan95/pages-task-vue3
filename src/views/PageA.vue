@@ -24,13 +24,12 @@ export default {
       if (!isButtonClicked.value) {
         router.push("/page-c");
       }
-    })
+    });
 
     const changePage = () => {
-      isButtonClicked.value = true
+      isButtonClicked.value = true;
       router.push("/page-b");
     };
-    
 
     return {
       header,

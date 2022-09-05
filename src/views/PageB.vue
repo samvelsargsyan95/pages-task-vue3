@@ -29,8 +29,8 @@ export default {
     });
 
     onUnmounted(() => {
-       clearTimeout(timeOut);
-    })
+      clearTimeout(timeOut);
+    });
 
     return {
       header,
@@ -40,11 +40,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    .page-b {
-        &__loader {
-            width: 300px;
-            margin: auto;
-            display: block;
-        }
-    }
+.page-b {
+  &__loader {
+    width: 300px;
+    margin: auto;
+    display: block;
+  }
+}
 </style>
