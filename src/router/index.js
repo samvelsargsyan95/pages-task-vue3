@@ -19,15 +19,6 @@ const routes = [
     path: '/page-b',
     name: 'pageB',
     component: PageB,
-    // beforeEnter: (to, from, next) => {
-    //   if (to.name === 'pageA' || from.name === 'pageA') {
-    //     next('/page-c');
-    //   }
-
-    //   if (to.name === 'pageC' || from.name === 'pageC') {
-    //     next('/page-c');
-    //   }
-    // }
   },
 
   {
