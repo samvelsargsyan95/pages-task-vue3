@@ -20,9 +20,7 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-#There are 3 pages (A, B, C), 
+### There are 3 pages (A, B, C), 
 in 'pageA' need to show one button, 
 with a clicking that button needs to redirect 'pageB', 
 after 3 seconds with loader need to redirect 'pageC' 
