@@ -20,8 +20,8 @@ npm run build
 npm run lint
 ```
 
-### There are 3 pages (A, B, C), 
-in 'pageA' need to show one button, 
+### Task Description
+There are 3 pages (A, B, C), in 'pageA' need to show one button, 
 with a clicking that button needs to redirect 'pageB', 
 after 3 seconds with loader need to redirect 'pageC' 
 and from 'pageC' with clicking back from browser need to redirect 'pageA'
